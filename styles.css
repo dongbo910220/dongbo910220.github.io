@@ -247,4 +247,4 @@ main { min-width: 0; }
 /* Reframe INSIDE the photo: retain the original person pixels and use only
    the generated upper wall as background. The photo box stays in place. */
 .portrait { position: relative; background-image: url("assets/bo-dong-headroom-bg.png"); background-size: cover; background-position: center top; }
-.portrait img { position: absolute; left: 0; top: 8%; width: 100%; height: 100%; object-fit: cover; object-position: center; mask-image: linear-gradient(to bottom, transparent 0%, #000 5%, #000 100%); -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 5%, #000 100%); }
+.portrait img { position: absolute; left: 0; top: 5%; width: 100%; height: 100%; object-fit: cover; object-position: center; mask-image: linear-gradient(to bottom, transparent 0%, #000 5%, #000 100%); -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 5%, #000 100%); }
